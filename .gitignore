@@ -1,0 +1,15 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+gas-report.txt
+coverage.json
+MakeProjectHH.md
+WorkWithHardHat.md
+deployfullcode.js
+.vscode

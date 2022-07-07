@@ -1,0 +1,12 @@
+node_modules
+package.json
+img
+artifacts
+cache
+coverage
+.env
+.*
+README.md
+coverage.json
+WorkWithHardHat.md
+MakeProject.md
