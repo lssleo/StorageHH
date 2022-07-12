@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol"; // with this you can use console.log in solidity 
+import "hardhat/console.sol"; 
 
 contract SimpleStorage {
     uint256 favoriteNumber;
@@ -12,7 +12,6 @@ contract SimpleStorage {
         string name;
     }
 
-    // uint256[] public anArray;
     People[] public people;
 
     mapping(string => uint256) public nameToFavoriteNumber;
