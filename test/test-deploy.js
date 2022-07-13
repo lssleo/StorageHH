@@ -38,10 +38,6 @@ describe("SimpleStorage", function () {
         )
         await transactionResponse.wait(1)
         const { favoriteNumber, name } = await simpleStorage.people(0)
-        // We could also do it like this
-        // const person = await simpleStorage.people(0)
-        // const favNumber = person.favoriteNumber
-        // const pName = person.name
         assert.equal(name, expectedPersonName)
         assert.equal(favoriteNumber, expectedFavoriteNumber) // assert.equal(variable , expected variable) | test checking to match this values
     })
